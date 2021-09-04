@@ -41,7 +41,12 @@ header{
     border:1px solid #ffffff;
     color: #ffffff;
 }
-
+/* ------------------ login modal ------------------ */
+@media only screen and (max-width: 768px){
+  .index-login-modal{
+    padding: 2rem;
+  }
+}
 /* background color */
 .bg-main{
   background-color: #0089CF;
