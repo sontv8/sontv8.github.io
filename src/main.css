@@ -59,6 +59,9 @@ header{
 .bg-gray-400{
   background-color: #ECECEC;
 }
+.bg-blue-800{
+  background-color: #24A9E2;
+}
 /* width */
 .w-full{
   width: 100%;
@@ -172,6 +175,8 @@ p{
   }
 }
 /* button */
+
+
 
 .view-all:hover{
   background-color: #0089CF;
