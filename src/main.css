@@ -202,7 +202,7 @@ p{
     margin-bottom: 5rem;
   } */
 
-/* main slider */
+/* ------------------ main slider ------------------ */
 .rotateslider-container{
   background-color: transparent;
   width: 80%;
@@ -237,7 +237,7 @@ p{
   z-index: 2;
 }
 
-  /* ấn tượng VN */
+  /* ------------------ ấn tượng VN ------------------ */
 
   .tabs{
     padding: 0;
@@ -249,12 +249,6 @@ p{
   }
   .tabs .active{
     border-bottom: 1px solid #19a3ff;
-  }
-  .reason{
-    background: url(../images/home/reason-bg.jpg) no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 6rem 0;
   }
   .register-block{
     background: url(../images/home/register.jpg) no-repeat;
@@ -291,16 +285,33 @@ p{
     .an-tuong-carousel .carousel-item .row{
       margin-top: 1rem;
     }
-    /* .an-tuong-carousel .carousel-item .row .col-sm .card-img-overlay, .an-tuong-carousel .carousel-item .row .col-sm{
-       padding: 0;
-    } */
   }
 
-  /* Đăng ký */
+  /* ------------------ Lí do lựa chọn ------------------ */
+  
+  .reason{
+    background: url(../images/home/reason-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 6rem 0;
+  }
+  .reason h4{
+    margin: 2rem 0;
+  }
+  @media only screen and (max-width: 768px) {
+    .reason img{
+      width: 15%;
+    }
+    .reason h4{
+      margin: 1rem 0;
+    }
+  }
+
+  /* ------------------ Đăng ký ------------------ */
   .inp-email{
     width: 20rem;
   }
-  /* tell story */
+  /* ------------------ tell story ------------------ */
   .story-tabs{
     display: flex;
     justify-content: center;
@@ -315,7 +326,8 @@ p{
     color: #19a3ff;
     cursor: pointer;
   }
-  /* testimonial carousel */
+
+  /* ------------------ testimonial carousel ------------------ */
   .carousel-indicators{
     margin-bottom: -3rem;
   }
@@ -332,4 +344,13 @@ p{
     padding: 0.5rem;
     width: 10rem;
     border-radius: 0.3rem;
+  }
+  @media only screen and (max-width: 768px){
+    .footer-logo{
+      text-align: center;
+    }
+    .index-footer .row:nth-child(2){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
