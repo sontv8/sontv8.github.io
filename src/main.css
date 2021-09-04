@@ -331,15 +331,20 @@ p{
       display: grid;
       grid-template-columns: 2fr 1fr;
     }
-    /* .story-content .carousel-item .row:first-child .col-sm-8{
-      grid-column-start: 1;
+    .story-content .carousel-item .row:first-child .col-sm-8, .story-content .carousel-item .row:first-child .col-sm-4{
+      padding: 0 0.5rem;
     }
     .story-content .carousel-item .row:first-child .col-sm-4{
-      grid-column-start: 9;
-    } */
+    }
+    
     .story-content .carousel-item .row:nth-child(2){
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      /* grid-gap: 0.5rem; */
+      margin-top: 1rem;
+    }
+    .story-content .carousel-item .row:nth-child(2) .col-sm{
+      padding: 0 0.5rem;
     }
   }
 
