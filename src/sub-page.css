@@ -75,6 +75,7 @@
         flex-direction: column;
     }
     .tay-bac-title h4{
+        font-size: 20px;
         padding: 2rem 0;
     }
     .tour-content .row{
@@ -99,6 +100,10 @@
         border: 1px solid white;
         color: white;
         font-size: 12px;
+    }
+    .tay-bac-title .btn-contact-tour, .tay-bac-title .btn-tour-guide{
+        font-size: 12px;
+        width: 11rem;
     }
 }
 /* ----------------- bien dao ----------------- */
