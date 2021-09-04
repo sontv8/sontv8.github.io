@@ -285,6 +285,15 @@ p{
     .an-tuong-carousel .row h5{
       font-size: 12px;
     }
+    .an-tuong-carousel .row .card-img-overlay{
+      padding: 0.5rem;
+    }
+    .an-tuong-carousel .carousel-item .row{
+      margin-top: 1rem;
+    }
+    /* .an-tuong-carousel .carousel-item .row .col-sm .card-img-overlay, .an-tuong-carousel .carousel-item .row .col-sm{
+       padding: 0;
+    } */
   }
 
   /* Đăng ký */
