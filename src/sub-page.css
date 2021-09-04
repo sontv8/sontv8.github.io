@@ -61,7 +61,46 @@
     background-color: #FFA30B;
     color: white;
 }
-
+.tour-content .row{
+    padding-top: 2rem;
+}
+.tour-content .row .col-sm .card-img-overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media only screen and (max-width: 768px){
+    .tay-bac-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .tay-bac-title h4{
+        padding: 2rem 0;
+    }
+    .tour-content .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 1rem;
+    }
+    .tour-content .row .col-sm{
+        padding: 0 0.5rem;
+    }
+    .tour-content .row .col-sm .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        align-items: center;
+    }
+    .tour-content h5{
+        font-size: 14px;
+    }
+    .tour-content .btn-read-more{
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+    }
+}
 /* ----------------- bien dao ----------------- */
 .btn-read-more{
     background-color: transparent;
