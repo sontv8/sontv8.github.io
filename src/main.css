@@ -46,6 +46,9 @@ header{
   .index-login-modal{
     padding: 2rem;
   }
+  .index-login-modal .col-md:first-child{
+    display: none;
+  }
 }
 /* background color */
 .bg-main{
