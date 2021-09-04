@@ -9,6 +9,18 @@ header{
     /* height: 1080px; */
     overflow: hidden;
 }
+
+.btn-call{
+  position: fixed;
+  right: 0.5rem;
+  bottom: 9rem;
+}
+.btn-email{
+  position: fixed;
+  right: 0.5rem;
+  bottom: 5rem;
+}
+
 .btn-send-request:hover{
   background-color: #ff6d0b;
 }
