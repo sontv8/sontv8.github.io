@@ -326,6 +326,22 @@ p{
     color: #19a3ff;
     cursor: pointer;
   }
+  @media only screen and (max-width: 768px){
+    .story-content .carousel-item .row:first-child{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    /* .story-content .carousel-item .row:first-child .col-sm-8{
+      grid-column-start: 1;
+    }
+    .story-content .carousel-item .row:first-child .col-sm-4{
+      grid-column-start: 9;
+    } */
+    .story-content .carousel-item .row:nth-child(2){
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 
   /* ------------------ testimonial carousel ------------------ */
   .carousel-indicators{
@@ -349,8 +365,9 @@ p{
     .footer-logo{
       text-align: center;
     }
-    .index-footer .row:nth-child(2){
+    .index-footer .row{
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
+    
   }
