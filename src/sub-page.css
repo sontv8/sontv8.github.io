@@ -246,6 +246,12 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     .form-create-tour .form-group h6{
         font-size: 14px;
     }
+    .co-so-luu-tru .row{
+        padding: 0 0.5rem;
+    }
+    .co-so-luu-tru .row .col{
+        padding: 0 0.5rem;
+    }
 }
 
 /* co so luu tru */
