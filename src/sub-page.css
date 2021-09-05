@@ -236,6 +236,15 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     margin-top: -1px;
 }
 
+@media only screen and (max-width: 768px){
+    .form-create-tour .form-group label{
+        font-size: 16px;
+    }
+    .form-create-tour .form-group input{
+        font-size: 12px;
+    }
+}
+
 /* co so luu tru */
 .fa-star{
     color: #FFA30B;
