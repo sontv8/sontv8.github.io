@@ -70,11 +70,11 @@
     align-items: flex-end;
 }
 @media only screen and (max-width: 768px){
-    .tay-bac-title{
+    .tour-title{
         display: flex;
         flex-direction: column;
     }
-    .tay-bac-title h4{
+    .tour-title h4{
         font-size: 20px;
         padding: 2rem 0;
     }
@@ -101,7 +101,7 @@
         color: white;
         font-size: 12px;
     }
-    .tay-bac-title .btn-contact-tour, .tay-bac-title .btn-tour-guide{
+    .tour-title .btn-contact-tour, .tour-title .btn-tour-guide{
         font-size: 12px;
         width: 11rem;
     }
@@ -127,6 +127,47 @@
 }
 .overflow-hidden{
     overflow: hidden;
+}
+/* ----------------- tay nguyen ----------------- */
+.suggestions .row .col-sm .card-img-overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.suggestions .card-title{
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 768px){
+    .suggestions h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    .suggestions .carousel-inner .carousel-item{
+        /* overflow: unset; */
+        padding: 0 0.5rem;
+    }
+    .suggestions .carousel-item .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .suggestions .row .col-sm{
+        padding: 0 0.5rem;
+    }
+    .suggestions .row .col-sm .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        align-items: center;
+    }
+    .suggestions h5{
+        font-size: 14px;
+    }
+    .suggestions .btn-read-more{
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+    }
 }
 
 /* ----------------- tao tour ----------------- */
