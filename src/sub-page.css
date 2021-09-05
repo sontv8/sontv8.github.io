@@ -247,10 +247,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
         font-size: 14px;
     }
     .co-so-luu-tru .row{
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
     .co-so-luu-tru .row .col{
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 }
 
