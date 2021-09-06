@@ -294,8 +294,21 @@ input[type=radio]:checked {
 }
 
 /* ----------------- about us ----------------- */
+.thu-ngo{
+    margin-top: 3rem;
+    padding: 2rem;
+}
 .thu-ngo p{
     font-size: 12px;
+}
+@media only screen and (max-width: 768px){
+    .thu-ngo{
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+    .thu-ngo p{
+        font-size: 10px;
+    }
 }
 /* .su-menh{
     background: url(../images/about-us/su-menh.jpg) no-repeat;

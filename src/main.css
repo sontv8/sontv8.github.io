@@ -272,12 +272,6 @@ p{
   .tabs .active{
     border-bottom: 1px solid #19a3ff;
   }
-  .register-block{
-    background: url(../images/home/register.jpg) no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 8rem 0;
-  }
   a::after{
     border-bottom: 1px solid blue;
   }
@@ -285,15 +279,16 @@ p{
   .carousel-item .row{
     margin-top: 2rem;
   }
+  .an-tuong{
+    padding: 4rem 0;
+  }
   @media only screen and (max-width: 768px) {
     .img-fluid{
       width: 100%;
     }
-    /* .carousel-item .row{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-row-gap: 1rem;
-    } */
+    .an-tuong{
+      padding: 2rem 0;
+    }
     .an-tuong-carousel .row{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -321,17 +316,42 @@ p{
     margin: 2rem 0;
   }
   @media only screen and (max-width: 768px) {
+    .reason{
+      padding: 3rem 0;
+    }
     .reason img{
       width: 15%;
     }
+    .reason h2{
+      font-size: 24px;
+    }
     .reason h4{
       margin: 1rem 0;
+      font-size: 18px;
+    }
+    .reason p{
+      font-size: 12px;
     }
   }
 
   /* ------------------ Đăng ký ------------------ */
+  
+  .register-block{
+    background: url(../images/home/register.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 8rem 0;
+  }
   .inp-email{
     width: 20rem;
+  }
+  .register-block .btn-warning:hover{
+    background-color: #ff6d0b;
+  }
+  @media only screen and (max-width: 768px){
+    .register-block{
+      padding: 4rem 0;
+    }
   }
   /* ------------------ tell story ------------------ */
   .story-tabs{
@@ -380,8 +400,13 @@ p{
   .carousel-indicators .active{
     background: #19a3ff;
   }
+  @media only screen and (max-width: 768px){
+    .customer-feedback h2{
+      font-size: 24px;
+    }
+  }
 
-  /* footer */
+  /* ------------------ footer ------------------ */
   .social-link{
     border: 1px solid #ffffff;
     padding: 0.5rem;
