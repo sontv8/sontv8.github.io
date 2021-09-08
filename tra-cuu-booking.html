@@ -16,23 +16,24 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./src/main.css">
     <link rel="stylesheet" href="./src/sub-page.css">
+    <link rel="stylesheet" href="./src/offcanvas.css">
 </head>
 
 <body>
     <section class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light px-4">
             <a class="navbar-brand" href="index.html"><img src="./images/dong-tay-bac/Logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item px-2">
-                        <a class="nav-link text-dark" href="about-us.html">Về vitrip.me <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about-us.html">Về vitrip.me <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown px-2">
-                        <a class="nav-link dropdown-toggle text-dark" href="du-lich-viet-nam.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="du-lich-viet-nam.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Du lịch Việt Nam
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,33 +44,66 @@
                         </div>
                     </li>
                     <li class="nav-item  px-2">
-                        <a class="nav-link text-dark" href="mice-tour.html">Mice Tour</a>
+                        <a class="nav-link" href="mice-tour.html">Mice Tour</a>
                     </li>
                     <li class="nav-item  px-2">
-                        <a class="nav-link text-dark" href="tra-cuu-booking.html">Tra cứu Booking</a>
+                        <a class="nav-link" href="tra-cuu-booking.html">Tra cứu Booking</a>
                     </li>
                     <li class="nav-item  px-2">
-                        <a class="nav-link text-dark" href="tin-tuc.html">Tin tức</a>
+                        <a class="nav-link" href="tin-tuc.html">Tin tức</a>
                     </li>
                     <li class="nav-item  px-2">
-                        <a class="nav-link text-dark" href="lien-he.html">Liên hệ</a>
+                        <a class="nav-link" href="lien-he.html">Liên hệ</a>
                     </li>
                 </ul>
                 <div>
                     <img src="./images/dong-tay-bac/Language.svg" alt="">
                     <div class="btn-login">
                         <a href=""><img src="./images/home/line.png" alt=""></a>
-                        <a href=""><img src="./images/home/account-circle.png" alt=""></a>
+                        <a href="" type="button" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="./images/home/account-circle.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </nav>
-        <!-- call to action button -->
-        <div class="zalo-chat-widget" data-oaid="311683456158616393" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="" data-height=""></div>
-        <div class="btn-call"><a href="tel:0393737072"><img src="./images/action-button/phone.png" alt=""></a></div>
-        <div class="btn-email"><a href="mailto:sontv8@fpt.edu.vn"><img src="./images/action-button/email-to.png" alt=""></a></div>
-        <script src="./src/sdkzalo.js"></script>
-        <!-- main banner -->
+        <div class="modal fade bd-example-modal-lg index-login-modal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="row bg-white">
+                        <div class="col-md pl-0 pr-0">
+                            <img src="./images/home/login-img.jpg" alt="" class="w-full">
+                        </div>
+                        <div class="col-md p-4">
+                            <div class="text-center">
+                                <img src="./images/dong-tay-bac/Logo.svg" alt="">
+                                <h4 class="my-4">Chào mừng đến với Vitrip.me</h4>
+                                <p>Vui lòng điền thông tin đăng nhập</p>
+                            </div>
+                            <form action="" class="my-5">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tên đăng nhập hoặc email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu" required>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Lưu lại</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary bg-blue-800">Đăng nhập</button>
+                                </div>
+                            </form>
+                            <div class="text-center">
+                                <a href="#">Đổi mật khẩu |</a>
+                                <a href="#">Lấy lại mật khẩu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/offcanvas.js"></script>
+
         <div class="banner-tra-cuu d-flex align-items-center">
             <form action="tao-tour.html" class="container">
                 <h2 class="text-white d-flex justify-content-center font-weight-bold text-center font-40 text-uppercase">Tra cứu booking</h2>
