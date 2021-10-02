@@ -279,10 +279,6 @@ p{
 
 
 
-.view-all:hover{
-  background-color: #0089CF;
-  color: white;
-}
 /* alignment */
 
 .align-top-12{
@@ -361,6 +357,21 @@ p{
   .an-tuong{
     padding: 4rem 0;
   }
+  .view-all a{
+    padding: 0.5rem 1.5rem;
+    display: block;
+    color: #24A9E2;
+  }
+  .view-all:hover{
+    background-color: #0089CF;
+  }
+  .view-all:hover a{
+    text-decoration: none;
+    color: white;
+  }
+  /* .btn-all-tour:hover{
+    color: #ffffff;
+  } */
   @media only screen and (max-width: 768px) {
     .img-fluid{
       width: 100%;

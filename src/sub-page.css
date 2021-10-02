@@ -43,6 +43,10 @@
     background: url(../images/tra-cuu-booking/banner.jpg) no-repeat;
     height: 650px;
 }
+.banner-an-tuong-vn{
+    background: url(../images/an-tuong-vn/banner.jpg) no-repeat;
+    height: 650px;
+}
 
 /* ----------------- cung duong dong tay bac ----------------- */
 .btn-tour-guide, .btn-contact-tour{
